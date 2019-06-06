@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir venv
+sudo chmod -R 777 venv/
+virtualenv3 venv/
+pip install --user -r requirements.txt
